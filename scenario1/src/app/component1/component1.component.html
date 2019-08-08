@@ -1,0 +1,5 @@
+<p>component1 works!</p>
+<!--Using Template reference variable for a text-->
+<input #mytext type="text" />
+<!--writes the text on to the console on clicking the button-->
+<button (click)=consoleMessage(mytext.value)>go</button>
